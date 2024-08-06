@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Misael Alura</title>
+    <link rel="icon" href="./imagen/Alura.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="principal">
+        <section class="conteudoCentral">
+            <div class="logo">
+                <img src="imagen/Frame 6.png" alt="imagem do logo">
+            </div>
+            <div class="titulo">
+                <h1>Digite seu texto</h1>
+            </div>
+
+            <div id="textAreaContainer">
+                <textarea id="userText" placeholder="Digite um texto que deseja criptografar ou descriptografar..."></textarea>
+            </div>
+
+            <div class="codigo_aviso">
+                <img src="./imagen/bi_exclamation-circle-fill.png" alt="ícone de exclamação">
+                <p class="aviso">Apenas letras minúsculas e sem acento</p>
+            </div>
+            
+            <div class="button-container">
+                <button class="botao1">Criptografar</button>
+                <button class="botao2">Descriptografar</button>
+            </div>
+        </section>
+        <section class="conteudoEsquerda">
+            <div class="retangular">
+                <div class="container" id="resultContainer">
+                    <div class="conteudo_imagem">
+                        <img src="imagen/High quality products 1 1.png" alt="produtos de alta qualidade">
+                    </div>
+                    <div class="conteudo_texto">
+                        <p class="cabecalho">Nenhuma mensagem <br> encontrada</p>
+                        <p class="texto">Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+                    </div>
+                    <div id="resultado" class="retangular"></div>
+                    <button id="botaoCopiar" style="display:none;" onclick="copiarParaAreaDeTransferencia()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Este site foi desenvolvido por Enoc Misael Fuentes Cedeno.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
